@@ -1,0 +1,19 @@
+{
+  "name": "inquirer",
+  "version": "1.0.0",
+  "description": "readme",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Mayorgak/README-generator.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mayorgak/README-generator/issues"
+  },
+  "homepage": "https://github.com/Mayorgak/README-generator#readme"
+}
