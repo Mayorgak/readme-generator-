@@ -1,5 +1,5 @@
 {
-  "name": "inquirer",
+  "name": "Readme",
   "version": "1.0.0",
   "description": "readme",
   "main": "index.js",
@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/Mayorgak/README-generator/issues"
   },
-  "homepage": "https://github.com/Mayorgak/README-generator#readme"
+  "homepage": "https://github.com/Mayorgak/README-generator#readme",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "inquirer": "^7.3.3"
+  }
 }
