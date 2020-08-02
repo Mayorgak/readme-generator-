@@ -14,8 +14,7 @@
   2. [Usage](#Usage)
   3. [License](#License)
   4. [Contribution](#Contribution)
-  5. [Tests](#Tests)
-  6. [Questions](#Questions)
+  5. [Questions](#Questions)
 
 ## Installation 
 
