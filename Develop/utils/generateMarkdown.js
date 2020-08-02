@@ -12,30 +12,30 @@ module.exports = (templateData) => {
 
   <img src="${userPic}"></img>
 
-  # Description
+## Description
   ${description}\n
 
+## Table of Contents
+1. Installation 
+2. Usage 
+3. License 
 
-  # Installation \n
+## Installation \n
   \`\`\`bash
   ${installation}
   \`\`\`
 
-  # Usage \n
+## Usage \n
   ${usage}\n
 
-  # License \n
+## License \n
   ${license} \n
   ![License badge](https://img.shields.io/badge/license-${license}-brightgreen)
 
-  # Questions \n
+ 
 
-  
-
-  Email Address : <a href=${email}>${email}</a>
-
-
+ 
 `;
-};
+}
 
 // module.exports = templateData;

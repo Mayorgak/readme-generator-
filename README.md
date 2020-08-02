@@ -1,35 +1,36 @@
 
   
-  # test 
+  # README Generator 
 
 
   <img src="https://avatars0.githubusercontent.com/u/64043274?v=4"></img>
 
-  # Description
-  test
+## Description
+  A command-line application that will allow users to quickly create a README file for their project. This will permit the project creator to effciently generator a README,and provide more time to focus on other areas of the project.
 
 
+## Table of Contents
+1. Installation 
+2. Usage 
+3. License 
 
-  # Installation 
+## Installation 
 
   ```bash
-  test
+  npm install inquirer
   ```
 
-  # Usage 
+## Usage 
 
-  test
+  User must clone the project from github to their local machine. Open the file using a code editor. Invoke the application by typing 'node index.js' on the command line and answer the prompts.
 
 
-  # License 
+## License 
 
   MIT 
 
   ![License badge](https://img.shields.io/badge/license-MIT-brightgreen)
 
-  # Questions 
+ 
 
-
-  
-
-
+ 

@@ -17,48 +17,40 @@ const promptUser = ()=> {
        type: "input",
        name: "title",
        message: "👤 What is the title of your README?",
-       default: "test",
+       default: "README Generator",
      },
      {
        type: "input",
        name: "id",
        message: "What is your GitHub ID?",
-       default: "Mayorgak",
+       default : "Mayorgak",
      },
-     {
-        type: "input",
-        message: "👤 What is your email address?",
-        name: "email"
-    },
      {
        type: "input",
        name: "description",
        message:
          "What would you like to put into the discription of your README?",
-       default: "test",
+       default:
+         "A command-line application that will allow users to quickly create a README file for their project. This will permit the project creator to effciently generator a README,and provide more time to focus on other areas of the project.",
      },
      {
        type: "input",
        name: "installation",
        message: "What are the steps required for installation? ",
-       default: "test",
+       default: "npm install inquirer",
      },
 
      {
        type: "input",
        name: "usage",
        message: "How does the user run this program? ",
-       default: "test",
+       default : "User must clone the project from github to their local machine. Open the file using a code editor. Invoke the application by typing 'node index.js' on the command line and answer the prompts.",
      },
      {
        type: "list",
        name: "license",
        message: "What license is it under? ",
-       choices: [
-           "MIT",
-            "ISC",
-            "GPL"  
-       ]
+       choices: ["MIT", "ISC", "GPL"],
      },
    ]);
  };
