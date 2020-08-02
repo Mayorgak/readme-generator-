@@ -16,9 +16,12 @@ module.exports = (templateData) => {
   ${description}\n
 
 ## Table of Contents
-1. Installation 
-2. Usage 
-3. License 
+  1. [Installation](#Installation)
+  2. [Usage](#Usage)
+  3. [License](#License)
+  4. [Contribution](#Contribution)
+  5. [Tests](#Tests)
+  6. [Questions](#Questions)
 
 ## Installation \n
   \`\`\`bash
@@ -26,15 +29,23 @@ module.exports = (templateData) => {
   \`\`\`
 
 ## Usage \n
+ \`\`\`bash
   ${usage}\n
+ \`\`\`
 
 ## License \n
   ${license} \n
   ![License badge](https://img.shields.io/badge/license-${license}-brightgreen)
 
+## Contribution 
+  * Kristen Mayorga
  
 
- 
+## Questions
+
+ Gihub username : <a href= "#">https://github.com/Mayorgak</a>
+
+ Email Address : <a href= "#">kristenmayorga@gmail.com</a>
 `;
 }
 

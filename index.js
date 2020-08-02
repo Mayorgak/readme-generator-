@@ -23,7 +23,7 @@ const promptUser = ()=> {
        type: "input",
        name: "id",
        message: "What is your GitHub ID?",
-       default : "Mayorgak",
+       default: "Mayorgak",
      },
      {
        type: "input",
@@ -31,7 +31,7 @@ const promptUser = ()=> {
        message:
          "What would you like to put into the discription of your README?",
        default:
-         "A command-line application that will allow users to quickly create a README file for their project. This will permit the project creator to effciently generator a README,and provide more time to focus on other areas of the project.",
+         "A command-line application that will allow users to quickly create a README file for their project. README template is generated with Title of project, Description, Table of Contents, Installation, Usage, License, Contributing, Tests, and Questions. This will permit the project creator to effciently generator a README,and provide more time to focus on other areas of the project.",
      },
      {
        type: "input",
@@ -44,13 +44,21 @@ const promptUser = ()=> {
        type: "input",
        name: "usage",
        message: "How does the user run this program? ",
-       default : "User must clone the project from github to their local machine. Open the file using a code editor. Invoke the application by typing 'node index.js' on the command line and answer the prompts.",
+       default:
+         "User must clone the project from github to their local machine. Open the file using a code editor. Invoke the application by typing 'node index.js' on the command line and answer the prompts.",
      },
      {
        type: "list",
        name: "license",
        message: "What license is it under? ",
        choices: ["MIT", "ISC", "GPL"],
+     },
+     {
+       type: "input",
+       name: "add",
+       message: "How can people contribute?",
+       default:
+         "When contributing to this repository, please first discuss the change you wish to make via issue, email, or any other method with the owners of this repository before making a change.",
      },
    ]);
  };
