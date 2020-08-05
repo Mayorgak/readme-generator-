@@ -40,9 +40,10 @@ https://youtu.be/j2g5UGL7s4Q
   ![License badge](https://img.shields.io/badge/license-MIT-brightgreen)
 
 ## Contribution 
-  * Kristen Mayorga
+```bash
+ When contributing to this repository, please first discuss the change you wish to make via issue, email, or any other method with the owners of this repository before making a change.
+ ```
  
-
 ## Questions
 
  Gihub username : <a href= "#">https://github.com/Mayorgak</a>
