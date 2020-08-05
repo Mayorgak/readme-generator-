@@ -7,6 +7,10 @@
 
 ## Description
   A command-line application that will allow users to quickly create a README file for their project. README template is generated with Title of project, Description, Table of Contents, Installation, Usage, License, Contributing, Tests, and Questions. This will permit the project creator to effciently generator a README,and provide more time to focus on other areas of the project.
+  
+  
+## Video Walkthrough 
+https://youtu.be/j2g5UGL7s4Q
 
 
 ## Table of Contents
@@ -44,3 +48,5 @@
  Gihub username : <a href= "#">https://github.com/Mayorgak</a>
 
  Email Address : <a href= "#">kristenmayorga@gmail.com</a>
+ 
+ 
